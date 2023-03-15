@@ -33,12 +33,12 @@ const Service = () => {
                 <div className="my-5">
                     <h1 className="text_service"> Our Services </h1>
                 </div>
-                <div className="row col-10 mx-auto  mb-5">
+                <div className="row col-11 mx-auto  mb-5">
 
                     {
                         Data.map((val, ind) => {
                             return (
-                                <div className="col-10 col-md-4 g-4 mx-auto">
+                                <div className="col-12 col-md-6 col-lg-4  g-4 mx-auto">
                                     <div className="card" >
                                         <img className="card-img-top" src={val.imgsrc} alt={val.imgsrc} />
                                         <div className="card-body p-4">

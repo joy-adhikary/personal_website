@@ -43,6 +43,15 @@ const Navbar = () => {
                       <NavLink
                         // activeClassName='menu_active'
                         className="nav-link"
+                        to="/services"
+                      >
+                        Our Services
+                      </NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <NavLink
+                        // activeClassName='menu_active'
+                        className="nav-link"
                         to="/about"
                       >
                         About Us
@@ -55,15 +64,6 @@ const Navbar = () => {
                         to="/contact"
                       >
                         Contact Us
-                      </NavLink>
-                    </li>
-                    <li className="nav-item">
-                      <NavLink
-                        // activeClassName='menu_active'
-                        className="nav-link"
-                        to="/services"
-                      >
-                        Our Services
                       </NavLink>
                     </li>
                   </ul>
